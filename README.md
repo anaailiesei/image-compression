@@ -1,5 +1,5 @@
 # image-compression
-Algoritm pentru compresia si decompresia imaginilor
+Image compression and decompression algorithm that utilizes a quaternary tree data structure
 
 # Cerinta 2: Compresie cu arbore cuaternar
 Am facut o fucntie care sa printeze un arbore pe nivele si am printat elementele din arbore intr-un fisier binar.
