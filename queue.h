@@ -1,5 +1,3 @@
-/* AILIESEI Ana-Maria 311CD*/
-
 #pragma once
 
 #include "structs.h"
