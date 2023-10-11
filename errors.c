@@ -1,5 +1,3 @@
-/* AILIESEI Ana-Maria 311CD*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "errors.h"
