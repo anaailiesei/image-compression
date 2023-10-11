@@ -1,5 +1,3 @@
-/* AILIESEI Ana-Maria 311CD*/
-
 #pragma once
 
 void error_f_in(void);
