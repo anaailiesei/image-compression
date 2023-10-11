@@ -1,10 +1,10 @@
 # image-compression
 Image compression and decompression algorithm that utilizes a quaternary tree data structure.
 
-# Cerinta 2: Compresie cu arbore cuaternar
+# Compresie cu arbore cuaternar
 Am facut o fucntie care sa printeze un arbore pe nivele si am printat elementele din arbore intr-un fisier binar.
 
-# Cerinta 3: Decompresie
+# Decompresie
 Am citit informatiile din fisierul binar, le-am trecut intr-o matrice de pixeli si am printat matricea intr-un fisier binar (.ppm)
 
 # Acestea sunt functiile/structurile pe care le-am utilizat:
@@ -75,7 +75,7 @@ Am citit informatiile din fisierul binar, le-am trecut intr-o matrice de pixeli 
     - functia *print_current_level* primeste ca parametrii fisierul de output, arborele si nivelul care se doreste a fi printat si printeaza nodurile de pe acel nivel in ordine. Nu returneaza nimic
     - functia *print_in_level_order* priemeste ca parametru un fisier de output si arborele cuaternar si printeaza nodurile din arbore in ordinea nivelelor. Nu returneaz nimic
 
-## Functiile pentru cerinta 3
+## Functiile pentru decompresie
 
     - functia *insert_node* se foloseste de o coada pentru a insera nodurile citite din fisierul binar in arborele cuaternar. Primeste ca parametrii arborele, nodul care se doreste a fi inserat, coada cu nodurile care asteapta sa fie introduse si un contor check pentru erori. Returneaza arborele cu noul nod inserat
     Mica explicatie pentru cum am folosit coada:
@@ -85,16 +85,11 @@ Am citit informatiile din fisierul binar, le-am trecut intr-o matrice de pixeli 
     - functia *decompression* trasnforma arborele cuaternar in mtricea imagine. Primeste ca argumente matricea imagine, arborele si un bloc si introduce recursiv blocurile corespunzatoare nodurilor in matrice. Nu returneaza nimic
     - functia *make_matrix_from_tree* sef oloseste de functia recursiva decompression pentru a realiza matricea imagine 
 
-# In fisierul main.c este implementata tema
-
-    - Daca sunt 5 argumente inseaman ca este vorba despre cerintele 1 si 2 si se preiau argumentele pentru f_in si f_out (arg 3 si 4) si factor (arg 2). Daca sunt 4 argumente este vorba despre cerinta 3 si se preiau argumentele pentru f_in si f_out (arg 2 si 3). Daca nu se respecta numarul de argumente se afiseaza eroare.
-    - Daca optiunea nu e -c1 , -c2 sau -d se afiseaza eroare
-
-### Cerinta 2:
+### Comresie:
 
     - Se printeaza dimensiunea imaginii in fisierul binar ssi apoi se printeaza si arborele in ordinea nivelelor
 
-### Cerinta 3:
+### Decompresie:
 
     - Se citeste dimensiunea imaginii, apoi se citeste si se realizeaza arborele
     - Se creeaza si matricea imagine cu ajutorul arborelui
