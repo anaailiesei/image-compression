@@ -1,0 +1,17 @@
+Small compression factor (factor = 2) memory reduction (%) results:
+image1.ppm:		53.10%
+image2.ppm:		43.49%
+image3.ppm:		65.29%
+image4.ppm:		59.01%
+image5.ppm:		40.69%
+image6.ppm:		63.76%
+image7.ppm		63.63%
+
+No compression factor (factor = 0) memory reduction (%) results:
+image1.ppm:		7.05%
+image2.ppm:		16.90%
+image3.ppm:		48.72%
+image4.ppm:		41.77%
+image5.ppm:		0.07%
+image6.ppm:		26.09%
+image7.ppm:		37.14%
