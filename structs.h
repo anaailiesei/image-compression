@@ -1,5 +1,3 @@
-/* AILIESEI Ana-Maria 311CD*/
-
 #pragma once
 
 // Structura pentru un pixel
