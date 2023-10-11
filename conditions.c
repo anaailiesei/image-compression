@@ -1,5 +1,3 @@
-/* AILISEI Ana-Maria 311CD*/
-
 #include <string.h>
 #include "conditions.h"
 #include "structs.h"
